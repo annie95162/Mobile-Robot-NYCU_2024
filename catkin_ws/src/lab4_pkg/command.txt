@@ -1,0 +1,13 @@
+roscore
+rosrun rosserial_python  serial_node.py /dev/ttyACM0
+
+% for beacon 600
+rosrun lab4_pkg ros_cp4_left_600.py
+
+% for beacon 1500
+rosrun lab4_pkg ros_cp4_left_1500.py
+
+% still testing
+rosrun lab4_pkg ros_cp4_light.py
+
+% arduino file: cp4_arduino_test.ino

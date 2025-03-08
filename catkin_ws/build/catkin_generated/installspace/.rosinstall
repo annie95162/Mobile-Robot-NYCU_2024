@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/lab639/catkin_ws/install/setup.sh

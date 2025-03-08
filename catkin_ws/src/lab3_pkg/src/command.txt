@@ -1,0 +1,15 @@
+first shell:
+roscore
+
+second shell:
+rosrun rosserial_python  serial_node.py /dev/ttyACM0
+
+third shell:
+cd catkin_ws/src
+source ~/catkin_ws/devel/setup.bash
+
+如果光源在左邊，用:
+rosrun lab3_pkg ros_cp3_left.py
+
+如果光源在中間或右邊，用:
+rosrun lab3_pkg ros_cp3.py

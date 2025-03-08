@@ -1,0 +1,2 @@
+lab1_pkg:lab2_pkg:lab3_pkg:lab4_pkg:labf_pkg
+-DCATKIN_DEVEL_PREFIX=/home/lab639/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/lab639/catkin_ws/install -G Unix Makefiles

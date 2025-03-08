@@ -1,0 +1,8 @@
+prefix=/home/lab639/catkin_ws/devel
+
+Name: lab4_pkg
+Description: Description of lab4_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

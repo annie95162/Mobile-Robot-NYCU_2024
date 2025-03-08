@@ -1,0 +1,4 @@
+roscore
+rosrun rosserial_python serial_node.py /dev/ttyACM0
+rosrun lab2_pkg cp2_node
+# library in libraries
